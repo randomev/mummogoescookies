@@ -26,16 +26,20 @@ if (keyboard_check_pressed(vk_space))
 	//physics_apply_impulse(x,y,x,y+10);
 }
 
-if place_free(x,y+1)
+if (place_free(x,y+1))
 {
 	gravity=0.5
 }
 else
 {
-	gravity=0
+	gravity=0;
+	if (keyboard_check(vk_space))
+	{
+		vspeed = -8;
+	}
 }
-
-if not place_free(x,y+1 && keyboard_check(vk_left))
-{
-	vspeed=-8
-}
+friction=0;
+//if (not place_free(x,y+1) && keyboard_check(vk_space))
+//{
+//	vspeed=-8
+//}
