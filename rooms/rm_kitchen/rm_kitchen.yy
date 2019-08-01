@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rm_kitchen",
     "id": "c9d72a1a-1295-4cdc-9e53-8621f3026524",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "27f5c5b5-118d-4c7c-92e3-5e5c47b36c6d",
-        "Height": 768,
+        "Height": 240,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 320
     },
     "mvc": "1.0",
     "views": [
