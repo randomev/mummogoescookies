@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "a90107f9-5843-4d04-b309-48ea14a1d6a7",
+            "Value": {
+                "id": "caa559e5-63f4-42ba-a82f-b0eb9cbb7dba",
+                "resourcePath": "sounds\\snd_adventure\\snd_adventure.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "d488e5ca-ecb3-44e1-808b-db113f260374",
