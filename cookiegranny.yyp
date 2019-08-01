@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "4906fcf8-b39b-4934-9887-783f44f067b2",
+            "Value": {
+                "id": "c163510a-c5e2-4c39-aa34-cf51293d97e0",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49d48175-8cbc-4401-aaa9-592fc9d1c9d3",
             "Value": {
                 "id": "707f6702-efea-4efc-ba7e-29c37d008a91",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "0a9800d5-8d70-4241-b411-2e9f2c0fbfe7",
                 "resourcePath": "sprites\\spr_granny_idle\\spr_granny_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86408ef9-6391-4191-abbb-f883debdc843",
+            "Value": {
+                "id": "43694710-75ad-49bf-8fa0-6973ba704964",
+                "resourcePath": "sprites\\spr_granny_speed\\spr_granny_speed.yy",
                 "resourceType": "GMSprite"
             }
         },

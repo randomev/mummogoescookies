@@ -1,18 +1,18 @@
 {
-    "id": "15f23dfb-38f7-4fbe-9a8b-41abafd3938d",
+    "id": "4906fcf8-b39b-4934-9887-783f44f067b2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_granny",
+    "name": "obj_game",
     "eventList": [
         {
-            "id": "28ea0e27-272e-4a73-a40c-e59320280bbd",
+            "id": "4670587d-9f73-4a35-9843-d52d2bc968b8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "15f23dfb-38f7-4fbe-9a8b-41abafd3938d"
+            "m_owner": "4906fcf8-b39b-4934-9887-783f44f067b2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7d6c816a-8912-4fd4-b431-6e8b737866fb",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
