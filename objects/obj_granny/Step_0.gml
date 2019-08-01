@@ -28,17 +28,17 @@ if (keyboard_check_pressed(vk_space))
 
 if (place_free(x,y+1))
 {
-	gravity=0.5
+	gravity=0.2
 }
 else
 {
 	gravity=0;
 	if (keyboard_check(vk_space))
 	{
-		vspeed = -8;
+		//vspeed = -3;
+		gravity=0.2
 	}
 }
-friction=0;
 //if (not place_free(x,y+1) && keyboard_check(vk_space))
 //{
 //	vspeed=-8
