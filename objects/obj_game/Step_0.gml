@@ -44,3 +44,9 @@ global.gb_granny_bloodpressure_movement;
 // always calculate grandchild's irritation level
 global.gb_grandchild_irritation_level +=
 global.gb_grandchild_irritation_level_movement;
+
+if (audio_is_playing(snd_house_house) && global.gb_grandchild_irritation_level < 5) 
+{
+	audio_stop_sound(snd_house_house);
+	audio_resume_sound(snd_house);
+}

@@ -16,8 +16,3 @@ else if (global.gb_grandchild_irritation_level > 5 && global.gb_grandchild_irrit
 	sprite_index = spr_grandchild_bored;
 	path_speed = 0;
 }
-else if (audio_is_playing(snd_house_house) && global.gb_grandchild_irritation_level < 5) 
-{
-	audio_stop_sound(snd_house_house);
-	audio_resume_sound(snd_house);
-}
