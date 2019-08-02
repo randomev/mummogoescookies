@@ -33,11 +33,11 @@ if (room == rm_house)
 	{
 		acookie = instance_create_layer(x,y,"Instances",obj_cookie_projectile);
 		// if looking to right
-		if (image_scale = -1)
+		if (image_xscale = -1)
 			acookie.direction = 0;
 
 		// if looking to left
-		if (image_scale = 1)
+		if (image_xscale = 1)
 			acookie.direction = 180;
 
 		acookie.speed = 3;
