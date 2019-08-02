@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.gb_grandchild_irritation_level += 1;
+global.gb_grandchild_irritation_level += 5;
 alarm[0] = room_speed * 5;
 
 if (global.gb_grandchild_irritation_level > 10)
