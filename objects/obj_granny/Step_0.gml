@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// keyboard handling for basic movement
+
+// if in elevator, then do not process anything
+if (global.gb_granny_on_elevator)
+	return;
+
 if (room == rm_house || room == rm_street)
 {
 	if (keyboard_check(vk_left) || (keyboard_check(vk_right)))

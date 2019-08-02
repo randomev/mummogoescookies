@@ -7,6 +7,7 @@ if (keyboard_check_pressed(vk_down))
 	direction = 270;
 	speed = 2;
 	global.gb_granny_on_elevator = true;
+	x = obj_elevator_upper.x; // center to tube
 } 
 else 
 {
@@ -15,5 +16,6 @@ else
 		speed = 0;
 		sprite_index = spr_granny_idle;
 		global.gb_granny_on_elevator = false;
+		y = obj_elevator_upper.y;
 	}
 }
