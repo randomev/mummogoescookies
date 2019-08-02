@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Bush generation happens here
 		
-rndx = random_range(-55, -10); //x-91
+rndx = 1; //random_range(2, 50); //x-91
 rndy = random_range(6, 221);
 if place_free(rndx, rndy)
 {

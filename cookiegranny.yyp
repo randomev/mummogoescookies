@@ -239,10 +239,26 @@
             }
         },
         {
+            "Key": "306e03a0-b1fe-44ec-a094-f4293a85903e",
+            "Value": {
+                "id": "04a8dc03-75b1-42d5-9003-8020d0d1cd63",
+                "resourcePath": "sprites\\spr_tinytile_top\\spr_tinytile_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "359ca5d3-abff-40bb-8d47-cbcf9e64cf0f",
             "Value": {
                 "id": "d6c49cc6-fa5a-4b0d-98a2-e7663da6e473",
                 "resourcePath": "objects\\obj_road_edge_top\\obj_road_edge_top.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "35a55beb-5121-4b06-9756-b39c1d82202e",
+            "Value": {
+                "id": "c01e986c-eb4e-4f1f-ae80-5e5905595f56",
+                "resourcePath": "objects\\obj_tinytile_bottom\\obj_tinytile_bottom.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -276,6 +292,14 @@
                 "id": "003b01f9-95e4-46dd-90e7-66f92a09adf1",
                 "resourcePath": "rooms\\rm_gamerwon\\rm_gamerwon.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "400b653d-2501-44fc-acae-ae173694e701",
+            "Value": {
+                "id": "61321a0c-19a4-497b-acde-7e0cc9fe0a58",
+                "resourcePath": "sprites\\spr_tinytiles\\spr_tinytiles.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -315,6 +339,14 @@
             "Value": {
                 "id": "8588e5c7-6b43-4bad-819b-fda8d958d000",
                 "resourcePath": "objects\\obj_logo\\obj_logo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d898c88-18e1-4482-9ea9-71455617683e",
+            "Value": {
+                "id": "42e604f5-4492-4048-aa74-5c387630e476",
+                "resourcePath": "objects\\obj_tinytile_top\\obj_tinytile_top.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -439,10 +471,18 @@
             }
         },
         {
+            "Key": "729ba1ee-814d-4841-acf1-f9e89f576112",
+            "Value": {
+                "id": "31a8492e-b9f9-4c91-a154-27ff8a0dcba6",
+                "resourcePath": "sprites\\spr_tinytile_bottom\\spr_tinytile_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74d97dbb-52e6-4ed5-8096-74e7338d7bef",
             "Value": {
                 "id": "d108a710-58b0-4856-ba1c-09fbcf8ba71e",
-                "resourcePath": "objects\\obj_obstacle_spawner\\obj_obstacle_spawner.yy",
+                "resourcePath": "objects\\obj_rm_street_game\\obj_rm_street_game.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -900,6 +940,14 @@
                 "id": "7ef9aae6-095a-4873-be38-1c3b0a51c151",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f495099a-e697-460c-8cd5-87b49456e9f9",
+            "Value": {
+                "id": "e5a60ca0-ac53-4b7a-b093-b49f656854ab",
+                "resourcePath": "objects\\obj_tinytile\\obj_tinytile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
