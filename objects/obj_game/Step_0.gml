@@ -53,3 +53,8 @@ if (audio_is_playing(snd_house_house) && global.gb_grandchild_irritation_level <
 	audio_stop_sound(snd_house_house);
 	audio_resume_sound(snd_house);
 }
+if(global.gb_shop_closes_in_seconds <= 0)
+{
+		obj_granny.sprite_index = spr_granny_ded;
+		alarm[0] = room_speed * 2;
+}
