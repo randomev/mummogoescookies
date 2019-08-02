@@ -6,8 +6,8 @@ if keyboard_check_pressed(vk_escape)
 }
 if(global.gb_shop_closes_in_seconds <= 0 && alarm_get(0) == -1)
 {
-		obj_granny.sprite_index = spr_granny_ded;
-		alarm[0] = room_speed * 1;
+		//obj_granny.sprite_index = spr_granny_ded;
+		//alarm[0] = room_speed * 1;
 }   
 if (global.gb_granny_on_elevator)
 {
@@ -37,8 +37,8 @@ if global.gb_grandchild_irritation_level < 0
 if global.gb_grandchild_irritation_level > 30
 {
 	
-	//obj_granny.sprite_index = spr_granny_ded;
-	//alarm[0] = room_speed * 1;
+	obj_granny.sprite_index = spr_granny_ded;
+	alarm[0] = room_speed * 1;
 
 	global.gb_grandchild_irritation_level = 30;
 	global.gb_grandchild_irritation_level_movement = 0;
