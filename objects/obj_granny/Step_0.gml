@@ -7,7 +7,7 @@
 if (global.gb_granny_on_elevator)
 	return;
 
-if (room == rm_house || room == rm_street)
+if (room == rm_house)
 {
 	if (keyboard_check(vk_left) || (keyboard_check(vk_right)))
 	{
@@ -38,18 +38,16 @@ if (room == rm_street)
 		{
 			y -= 2;
 			image_xscale = 1;
-			sprite_index = spr_granny_speed;
 		} 
 		if (keyboard_check(vk_down))
 		{
 			y += 2;
 			image_xscale = 1;
-			sprite_index = spr_granny_speed;
 		}
 	} 
 	else 
 	{
-		sprite_index = spr_granny_idle;
+		sprite_index = spr_granny_speed;
 	}
 	
 }

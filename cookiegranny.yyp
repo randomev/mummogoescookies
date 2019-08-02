@@ -143,6 +143,22 @@
             }
         },
         {
+            "Key": "2674906b-fb5b-40e2-8db1-0f3549d9d4b6",
+            "Value": {
+                "id": "ec6fba61-05e1-4204-a95f-02bce9cf0d73",
+                "resourcePath": "sounds\\snd_house_house\\snd_house_house.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2756c3e2-4f36-4605-84ab-82d36afda4d1",
+            "Value": {
+                "id": "9472257e-b55f-4b80-8fc9-86c8e54c42f0",
+                "resourcePath": "sprites\\spr_bush2\\spr_bush2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ce3561e-ddf1-4611-a924-c231ab8a2a28",
             "Value": {
                 "id": "2e901e8a-5c66-492a-8189-aacba194a72b",
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "6914547d-b7bb-4ad3-bdc3-3e877828120b",
+            "Value": {
+                "id": "dd7a97ec-226a-45a1-b1da-3927bddee9a0",
+                "resourcePath": "sounds\\snd_house\\snd_house.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "69af3126-7d52-4bc1-942d-e321f6c8023e",
             "Value": {
                 "id": "bb22b8ca-ba19-4bb8-b4a9-9163f3178fd4",
@@ -282,7 +306,7 @@
             "Key": "74d97dbb-52e6-4ed5-8096-74e7338d7bef",
             "Value": {
                 "id": "d108a710-58b0-4856-ba1c-09fbcf8ba71e",
-                "resourcePath": "objects\\obj_rock_spawner\\obj_rock_spawner.yy",
+                "resourcePath": "objects\\obj_obstacle_spawner\\obj_obstacle_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -300,14 +324,6 @@
                 "id": "81c47d8f-c453-45f3-8c02-f5442affcb63",
                 "resourcePath": "views\\7af2c99a-a568-4873-b887-bcf8f630a52d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7c932590-3339-4ab7-b70b-2896e4799f77",
-            "Value": {
-                "id": "92e79da1-b7ea-48b5-b848-fee9d66942e0",
-                "resourcePath": "objects\\obj_bush\\obj_bush.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -330,7 +346,7 @@
             "Key": "8377a796-5915-4638-8e19-11b33d667cec",
             "Value": {
                 "id": "c2c79f24-1780-46d3-b25f-c4c2b329eed5",
-                "resourcePath": "objects\\obj_rock\\obj_rock.yy",
+                "resourcePath": "objects\\obj_bush\\obj_bush.yy",
                 "resourceType": "GMObject"
             }
         },
