@@ -4,5 +4,6 @@ if (keyboard_check(vk_up))
 	sprite_index = spr_granny_sickairtime;
 	direction = 90;
 	speed = 2;
+	global.gb_granny_on_elevator = true;
 }
 

@@ -5,10 +5,15 @@ if (keyboard_check_pressed(vk_down))
 {
 	sprite_index = spr_granny_freefall;
 	direction = 270;
-	speed = 5;
+	speed = 2;
+	global.gb_granny_on_elevator = true;
 } 
 else 
 {
-	vspeed = 0;
-	sprite_index = spr_granny_idle;	
+	if (y >= global.gb_house_second_floor_height_y)
+	{
+		speed = 0;
+		sprite_index = spr_granny_idle;
+		global.gb_granny_on_elevator = false;
+	}
 }
