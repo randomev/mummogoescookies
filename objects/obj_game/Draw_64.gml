@@ -15,7 +15,7 @@ if(room == rm_house)
 
 }
 
-if(room == rm_street)
+
 {
 	draw_set_font(fnt_font0);	
 	
