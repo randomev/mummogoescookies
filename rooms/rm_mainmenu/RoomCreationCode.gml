@@ -1,1 +1,2 @@
-draw_button(65, 29, 80, 40, !mouse_check_button(mb_left));
+audio_stop_all();
+audio_play_sound(snd_menu, 1, true);
