@@ -21,24 +21,21 @@ else
 	sprite_index = spr_granny_idle;
 }
 
-if (keyboard_check_pressed(vk_space))
-{
-	//physics_apply_impulse(x,y,x,y+10);
-}
+// not yet working at all...
 
-if (place_free(x,y+1))
-{
-	gravity=0.2
-}
-else
-{
-	gravity=0;
-	if (keyboard_check(vk_space))
-	{
-		//vspeed = -3;
-		gravity=0.2
-	}
-}
+//if (place_free(x,y+1))
+//{
+//	gravity=0.2
+//}
+//else
+//{
+//	gravity=0;
+//	if (keyboard_check(vk_space))
+//	{
+//		//vspeed = -3;
+//		gravity=0.2
+//	}
+//}
 //if (not place_free(x,y+1) && keyboard_check(vk_space))
 //{
 //	vspeed=-8
