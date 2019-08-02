@@ -45,6 +45,8 @@ if (room == rm_street)
 	{
 		sprite_index = spr_granny_idle;
 	}
+	
+}
 
 // not yet working at all...
 
