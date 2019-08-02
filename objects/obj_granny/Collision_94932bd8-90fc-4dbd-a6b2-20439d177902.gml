@@ -1,11 +1,12 @@
 /// @description Insert description here
 if (keyboard_check(vk_up))
 {
-	sprite_index = spr_granny_sickairtime;
+	sprite_index = spr_granny_chuting;
 	direction = 90;
 	speed = 2;
 	global.gb_granny_on_elevator = true;
 	x = obj_elevator_lower.x;
+	audio_sound_gain(snd_elevator,1,0);
 	audio_play_sound(snd_elevator,1,false);
 } 
 else 

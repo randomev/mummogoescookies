@@ -1,8 +1,8 @@
 {
-    "id": "59c90741-0dfe-4d92-bd4c-e8f74a846323",
+    "id": "da9798b0-4a8a-4ffa-991b-c6194c1925ee",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_elevator_upper",
+    "name": "obj_doughing_table",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c7f42c50-3888-47f8-b6f0-653e08867b4f",
+    "spriteId": "0a4b2006-bbac-4064-b0da-578f505faaba",
     "visible": true
 }

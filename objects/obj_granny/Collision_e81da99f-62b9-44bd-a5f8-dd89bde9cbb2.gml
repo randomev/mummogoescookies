@@ -3,7 +3,7 @@
 
 if (keyboard_check_pressed(vk_down))
 {
-	sprite_index = spr_granny_freefall;
+	sprite_index = spr_granny_chuting;
 	direction = 270;
 	speed = 2;
 	global.gb_granny_on_elevator = true;

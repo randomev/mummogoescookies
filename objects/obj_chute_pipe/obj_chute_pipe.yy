@@ -1,8 +1,8 @@
 {
-    "id": "59c90741-0dfe-4d92-bd4c-e8f74a846323",
+    "id": "0a31bbd1-cf79-439d-b32e-3c89250a9630",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_elevator_upper",
+    "name": "obj_chute_pipe",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c7f42c50-3888-47f8-b6f0-653e08867b4f",
+    "spriteId": "19d9653a-03fd-45de-b4d6-4dbca709a373",
     "visible": true
 }

@@ -63,6 +63,30 @@
             }
         },
         {
+            "Key": "0a31bbd1-cf79-439d-b32e-3c89250a9630",
+            "Value": {
+                "id": "937d1b8d-0b8b-489d-a153-78856240e720",
+                "resourcePath": "objects\\obj_chute_pipe\\obj_chute_pipe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0a4b2006-bbac-4064-b0da-578f505faaba",
+            "Value": {
+                "id": "e50074f0-dd53-4939-a02b-8170e35c43ad",
+                "resourcePath": "sprites\\spr_doughing_table\\spr_doughing_table.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0a86f981-13f9-43ae-81f2-89b6238a12c1",
+            "Value": {
+                "id": "a8981200-ff84-4234-9c5b-3ef27b32e61c",
+                "resourcePath": "objects\\obj_oven\\obj_oven.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d738bbe-cfbe-472c-b342-81fff95c9457",
             "Value": {
                 "id": "a5d34e1b-ce9a-4932-833e-aceddb1a500a",
@@ -159,6 +183,14 @@
             }
         },
         {
+            "Key": "5327de26-d543-4d47-805f-e41fd9d118fc",
+            "Value": {
+                "id": "80353f55-c4b6-4d71-82e5-2889eb5a1fc6",
+                "resourcePath": "sprites\\spr_grandchild_jumping\\spr_grandchild_jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "596e85f6-6af4-4788-b8d2-7fed44940957",
             "Value": {
                 "id": "84398119-065e-4fb4-bbb2-8bc7823f4851",
@@ -236,6 +268,14 @@
                 "id": "d108a710-58b0-4856-ba1c-09fbcf8ba71e",
                 "resourcePath": "objects\\obj_rock\\obj_rock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "796cefb7-c077-4158-ae71-a9bd5cb21067",
+            "Value": {
+                "id": "de85005f-827b-435a-a5d8-8f3d8ec98002",
+                "resourcePath": "sprites\\spr_basic_oven_bust\\spr_basic_oven_bust.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -436,6 +476,14 @@
                 "id": "668eb1db-3e7f-47be-9076-d7e5e7911130",
                 "resourcePath": "sprites\\spr_grandchild_munching\\spr_grandchild_munching.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da9798b0-4a8a-4ffa-991b-c6194c1925ee",
+            "Value": {
+                "id": "df1b0169-c9b0-4226-9fa4-fd6fc25f5440",
+                "resourcePath": "objects\\obj_doughing_table\\obj_doughing_table.yy",
+                "resourceType": "GMObject"
             }
         },
         {

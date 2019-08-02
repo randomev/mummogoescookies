@@ -1,8 +1,8 @@
 {
-    "id": "59c90741-0dfe-4d92-bd4c-e8f74a846323",
+    "id": "0a86f981-13f9-43ae-81f2-89b6238a12c1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_elevator_upper",
+    "name": "obj_oven",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c7f42c50-3888-47f8-b6f0-653e08867b4f",
+    "spriteId": "6cc70cf2-3321-4b5f-a521-ac3efa40721f",
     "visible": true
 }
