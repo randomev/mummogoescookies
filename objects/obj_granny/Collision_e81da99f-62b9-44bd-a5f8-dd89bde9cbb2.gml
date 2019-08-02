@@ -10,7 +10,7 @@ if (keyboard_check_pressed(vk_down))
 } 
 else 
 {
-	if (y >= global.gb_house_second_floor_height_y)
+	if (y <= global.gb_house_second_floor_height_y)
 	{
 		speed = 0;
 		sprite_index = spr_granny_idle;
