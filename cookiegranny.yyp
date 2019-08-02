@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01c9d7be-3fbf-487a-9805-c22234e08533",
+            "Value": {
+                "id": "93cbcc29-c734-4d84-a291-2f690db14f38",
+                "resourcePath": "sounds\\snd_elevator\\snd_elevator.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "07ab75c1-91b7-454a-84c3-1530bfd44c46",
             "Value": {
                 "id": "a72eeca0-c164-4268-9e9a-e788c9bae91f",
