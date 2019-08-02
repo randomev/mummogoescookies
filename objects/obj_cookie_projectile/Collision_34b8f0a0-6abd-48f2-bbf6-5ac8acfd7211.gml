@@ -7,3 +7,6 @@ if (other.image_index < 6)
 	other.image_index += 1;
 
 instance_destroy(obj_cookie);
+
+// so that we have same amount of cookies in next level
+global.gb_cart_image_index = other.image_index;

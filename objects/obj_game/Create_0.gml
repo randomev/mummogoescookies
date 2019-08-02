@@ -40,3 +40,5 @@ global.tip = "";
 global.gb_shop_closes_in_seconds = 2;
 
 alarm[2] = room_speed * 1;
+
+global.gb_cart_image_index = 0;
