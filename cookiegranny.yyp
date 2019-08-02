@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "a97b73bd-853c-4977-bd57-c9885d2083fd",
+            "Value": {
+                "id": "e92ff977-7907-4268-bb3f-c5a2a1eb33a4",
+                "resourcePath": "objects\\obj_cookie_projectile\\obj_cookie_projectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa42da10-2171-445f-8080-db4875ad3cce",
             "Value": {
                 "id": "a513e718-fabe-46e5-b657-5a160d3a867c",
