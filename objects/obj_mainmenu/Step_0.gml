@@ -15,7 +15,10 @@ if (keyboard_check(vk_right))
 
 if (keyboard_check(vk_enter))
 {
-	if (obj_button_start.image_alpha == 0.3)
-		room_goto("");
-	obj_button_settings.image_alpha = 1;
+	if (obj_button_start.image_alpha == 1)
+		room_goto(rm_house);
+		
+	if (obj_button_settings.image_alpha == 1)
+		room_goto(rm_street);
+
 }
