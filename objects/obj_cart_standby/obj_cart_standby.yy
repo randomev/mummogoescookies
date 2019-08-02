@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_cart_standby",
     "eventList": [
-        
+        {
+            "id": "009c1146-cd00-47b1-9160-761d872fb1f4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "38ef7127-cfb3-40db-966c-ab6a5fb43325"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
