@@ -17,6 +17,7 @@ else
 		sprite_index = spr_granny_idle;
 		global.gb_granny_on_elevator = false;
 		y = obj_elevator_upper.y;
-		global.gb_granny_bloodpressure_movement = 0;
+		// granny idling => relaxing ...
+		global.gb_granny_bloodpressure_movement = global.gb_granny_relaxing_movement;
 	}
 }

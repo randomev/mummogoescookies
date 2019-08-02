@@ -8,11 +8,6 @@ if(room == rm_street)
 if(room == rm_house)
 {
 
-	if (global.gb_granny_on_elevator)
-	{
-		global.gb_granny_bloodpressure_movement = -0.1;
-	}
-
 	draw_text(14,20,"Grandchild irritation level " + string(global.gb_grandchild_irritation_level));
 	//draw_healthbar(148, 28, 188, 21, global.gb_grandchild_irritation_level, c_black, c_red, c_lime, 0, true, true)
 

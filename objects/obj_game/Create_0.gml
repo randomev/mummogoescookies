@@ -19,6 +19,11 @@ global.gb_grandchild_irritation_level = 0;
 // 100 = granny's heart almost explodes - 'game over level'
 global.gb_granny_blood_overpressure = 0;
 
+// current movement of granny's blood pressure
 // negative = bad
 // positive = good
 global.gb_granny_bloodpressure_movement = 0;
+
+// when granny is relaxing, this amount
+// is distracted from blood pressure per step
+ global.gb_granny_relaxing_movement = -0.01;
