@@ -15,7 +15,7 @@ if global.gb_granny_blood_overpressure > 100
 	global.gb_granny_blood_overpressure = 100;
 	global.gb_granny_bloodpressure_movement = 0;
 	obj_granny.sprite_index = spr_granny_ded;
-	alarm[0] = room_speed * 2;
+	alarm[0] = room_speed * 1;
 }
 
 if global.gb_granny_blood_overpressure < 0

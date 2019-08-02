@@ -5,3 +5,5 @@ global.gb_grandchild_irritation_level -= 1;
 
 if (other.image_index < 6)
 	other.image_index += 1;
+
+instance_destroy(obj_cookie);
