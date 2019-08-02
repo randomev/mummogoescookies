@@ -10,3 +10,4 @@ yk = 1;
 intown = false;
 
 townborder = 600;
+market = 1200;
