@@ -5,16 +5,6 @@
     "name": "obj_obstacle_spawner",
     "eventList": [
         {
-            "id": "cf3d3592-22af-4d1b-ba0d-2de3fa5a8b78",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "74d97dbb-52e6-4ed5-8096-74e7338d7bef"
-        },
-        {
             "id": "a1b42e56-356d-4223-994f-7ee0531d3c76",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -41,6 +31,16 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "74d97dbb-52e6-4ed5-8096-74e7338d7bef"
+        },
+        {
+            "id": "ebe70af9-f31f-49cd-9e7d-acc5c1afe0c8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
             "eventtype": 2,
             "m_owner": "74d97dbb-52e6-4ed5-8096-74e7338d7bef"
         }

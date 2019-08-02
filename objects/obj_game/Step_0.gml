@@ -14,6 +14,7 @@ if global.gb_granny_blood_overpressure > 100
 {
 	global.gb_granny_blood_overpressure = 100;
 	global.gb_granny_bloodpressure_movement = 0;
+	room_goto(rm_gameover);
 }
 
 if global.gb_granny_blood_overpressure < 0
@@ -28,9 +29,11 @@ if global.gb_grandchild_irritation_level < 0
 	global.gb_grandchild_irritation_level_movement = 0;
 }
 
-if global.gb_grandchild_irritation_level > 100
+if global.gb_grandchild_irritation_level > 30
 {
-	global.gb_grandchild_irritation_level = 100;
+	room_goto(rm_gameover);
+
+	global.gb_grandchild_irritation_level = 30;
 	global.gb_grandchild_irritation_level_movement = 0;
 }
 

@@ -4,7 +4,7 @@ yr = yr + random_range(1, 3) * yk;
 
 for (var i = 0; i < 7; i += 1)
 {
-	instance_create_depth(0, yr + i*8, 0, obj_road);
+	instance_create_depth(0, yr + i*8, 4, obj_road);
 }
 
 if (yr > room_height * 0.7)

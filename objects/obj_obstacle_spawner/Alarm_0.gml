@@ -7,6 +7,6 @@ rndy = random_range(6, 221);
 if place_free(rndx, rndy)
 {
 	// create only bush if is empty
-	instance_create_depth(rndx, rndy, 1, obj_bush);
+	instance_create_depth(rndx, rndy, 2, obj_bush);
 }
 alarm[0] = room_speed * 0.5;

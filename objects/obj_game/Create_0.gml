@@ -36,3 +36,5 @@ global.gb_granny_bloodpressure_movement = 0;
 global.gb_granny_cookiecount = 0;
 
 global.tip = "";
+
+global.gb_shop_closes_in_seconds = 60;
