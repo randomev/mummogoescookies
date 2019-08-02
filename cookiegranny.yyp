@@ -658,7 +658,7 @@
             "Key": "aa42da10-2171-445f-8080-db4875ad3cce",
             "Value": {
                 "id": "a513e718-fabe-46e5-b657-5a160d3a867c",
-                "resourcePath": "sprites\\spr_door\\spr_door.yy",
+                "resourcePath": "sprites\\spr_scene_trigger\\spr_scene_trigger.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -906,7 +906,7 @@
             "Key": "ed2b5f56-eec8-4e5c-aee8-e73c73f2e869",
             "Value": {
                 "id": "1f8bfb25-c628-482e-af79-fe2c4e8b605c",
-                "resourcePath": "objects\\obj_door\\obj_door.yy",
+                "resourcePath": "objects\\obj_scene_trigger\\obj_scene_trigger.yy",
                 "resourceType": "GMObject"
             }
         },
