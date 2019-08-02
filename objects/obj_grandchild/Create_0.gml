@@ -3,7 +3,7 @@
 //path_start(pth_grandchild, 1, path_action_reverse, 0);
 
 alarm[0] = room_speed * 1;
-global.gb_grandchild_irritation_level = 14;
+global.gb_grandchild_irritation_level = 0; //14;
 
 direction = 0;
-speed = 0.5;
+speed = 0.1;

@@ -1,7 +1,8 @@
-/// @description Insert description here
+/// @description After jumping this gets called
 // You can write your code in this editor
-x = obj_bed.x - 16;
-y = obj_bed.y;
+x = x - 50;
+y = global.gb_house_second_floor_height_y;
 direction = 180;
-speed = -0.8;
+sprite_index = spr_grandchild_idle_run;
+speed = 1;
 obj_bed.sprite_index = spr_bed_idle;
