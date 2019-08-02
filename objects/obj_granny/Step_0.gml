@@ -32,8 +32,16 @@ if (room == rm_house)
 	if (keyboard_check_pressed(vk_space) && global.gb_granny_cookiecount > 0)
 	{
 		acookie = instance_create_layer(x,y,"Instances",obj_cookie_projectile);
-		acookie.direction = direction;
+		// if looking to right
+		if (image_scale = -1)
+			acookie.direction = 0;
+
+		// if looking to left
+		if (image_scale = 1)
+			acookie.direction = 180;
+
 		acookie.speed = 3;
+		global.gb_granny_cookiecount -= 1;
 	}
 }
 
