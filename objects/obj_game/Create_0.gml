@@ -15,6 +15,9 @@ global.gb_house_second_floor_height_y = 119;
 // 100 = very angry - "game over level"
 global.gb_grandchild_irritation_level = 0;
 
+// which direction irritation is moving
+global.gb_grandchild_irritation_level_movement = 0;
+
 // 0 = ok
 // 100 = granny's heart almost explodes - 'game over level'
 global.gb_granny_blood_overpressure = 0;
@@ -27,3 +30,9 @@ global.gb_granny_bloodpressure_movement = 0;
 // when granny is relaxing, this amount
 // is distracted from blood pressure per step
  global.gb_granny_relaxing_movement = -0.01;
+ 
+ 
+// how many cookies granny has
+global.gb_granny_cookiecount = 0;
+
+global.tip = "";
