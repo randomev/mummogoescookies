@@ -11,16 +11,24 @@
             "id": "17e8bd16-338d-43bc-aca1-5c8d60e3896b",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 256,
-            "y": 251,
+            "x": 117,
+            "y": 122,
             "speed": 100
         },
         {
             "id": "49ecf814-69e1-4707-b940-d615ed3a32fa",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 288,
-            "y": 251,
+            "x": 260.23172,
+            "y": 125.195114,
+            "speed": 100
+        },
+        {
+            "id": "a881b7b8-7c7e-4781-ac67-0c5e2422a30f",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 273,
+            "y": 117,
             "speed": 100
         }
     ],

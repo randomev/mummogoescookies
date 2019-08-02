@@ -1,8 +1,8 @@
 {
-    "id": "59c90741-0dfe-4d92-bd4c-e8f74a846323",
+    "id": "0c4ae3dc-47e2-4178-8e3d-3e60efa86c82",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_elevator_upper",
+    "name": "obj_bed",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "102079a9-362b-4107-bf8e-fb158756bae9",
+    "spriteId": "0adbcc3e-2ca7-481b-bf1d-e78dcb2b3ab6",
     "visible": true
 }
