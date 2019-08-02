@@ -2,7 +2,7 @@
     "id": "aa42da10-2171-445f-8080-db4875ad3cce",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_door",
+    "name": "spr_scene_trigger",
     "For3D": false,
     "HTile": false,
     "VTile": false,
