@@ -1,25 +1,50 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (keyboard_check(vk_left) || (keyboard_check(vk_right)))
+if (room == rm_house || room == rm_street)
 {
-	if (keyboard_check(vk_left))
+	if (keyboard_check(vk_left) || (keyboard_check(vk_right)))
 	{
-		x -= 2;
-		image_xscale = 1;
-		sprite_index = spr_granny_speed;
+		if (keyboard_check(vk_left))
+		{
+			x -= 2;
+			image_xscale = 1;
+			sprite_index = spr_granny_speed;
+		} 
+		if (keyboard_check(vk_right))
+		{
+			x += 2;	
+			image_xscale = -1;
+			sprite_index = spr_granny_speed;
+		}
 	} 
-	if (keyboard_check(vk_right))
+	else 
 	{
-		x += 2;	
-		image_xscale = -1;
-		sprite_index = spr_granny_speed;
+		sprite_index = spr_granny_idle;
 	}
-} 
-else 
-{
-	sprite_index = spr_granny_idle;
 }
+
+if (room == rm_street)
+{
+	if (keyboard_check(vk_up) || (keyboard_check(vk_down)))
+	{
+		if (keyboard_check(vk_left))
+		{
+			x -= 2;
+			image_xscale = 1;
+			sprite_index = spr_granny_speed;
+		} 
+		if (keyboard_check(vk_right))
+		{
+			x += 2;	
+			image_xscale = -1;
+			sprite_index = spr_granny_speed;
+		}
+	} 
+	else 
+	{
+		sprite_index = spr_granny_idle;
+	}
 
 // not yet working at all...
 
