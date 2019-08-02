@@ -10,3 +10,15 @@ global.gb_house_first_floor_height_y = 184;
 
 // second floor y
 global.gb_house_second_floor_height_y = 119;
+
+// 0 = not irritated at all
+// 100 = very angry - "game over level"
+global.gb_grandchild_irritation_level = 0;
+
+// 0 = ok
+// 100 = granny's heart almost explodes - 'game over level'
+global.gb_granny_blood_overpressure = 0;
+
+// negative = bad
+// positive = good
+global.gb_granny_bloodpressure_movement = 0;
