@@ -1,0 +1,1 @@
+draw_button(65, 29, 80, 40, !mouse_check_button(mb_left));
