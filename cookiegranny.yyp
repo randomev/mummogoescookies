@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "38118887-2741-41c3-b87b-17be33cacda5",
+            "Value": {
+                "id": "634b2cf7-dfc6-47c5-a1bc-074719f806ed",
+                "resourcePath": "sprites\\spr_rock\\spr_rock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b45811f-363c-4a07-a37f-8b30240910af",
             "Value": {
                 "id": "003b01f9-95e4-46dd-90e7-66f92a09adf1",
@@ -172,6 +180,22 @@
                 "id": "bb22b8ca-ba19-4bb8-b4a9-9163f3178fd4",
                 "resourcePath": "sprites\\spr_button_settings\\spr_button_settings.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a407ec9-83a9-4aa0-b27b-1ae919f42669",
+            "Value": {
+                "id": "d58c68c2-8bee-47df-960f-0e9be69390af",
+                "resourcePath": "objects\\obj_gameover\\obj_gameover.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74d97dbb-52e6-4ed5-8096-74e7338d7bef",
+            "Value": {
+                "id": "d108a710-58b0-4856-ba1c-09fbcf8ba71e",
+                "resourcePath": "objects\\obj_rock\\obj_rock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -260,6 +284,14 @@
                 "id": "d488e5ca-ecb3-44e1-808b-db113f260374",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a92d08e1-1f76-4a2f-8f90-b8632e8fce31",
+            "Value": {
+                "id": "94739e24-34aa-44fd-b52e-0175fa96211b",
+                "resourcePath": "sprites\\spr_gameover\\spr_gameover.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -4,3 +4,4 @@ sprite_index = choose(
 	spr_granny_idle,
 	spr_granny_speed
 )
+health = 5;

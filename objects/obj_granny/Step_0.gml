@@ -28,15 +28,15 @@ if (room == rm_street)
 {
 	if (keyboard_check(vk_up) || (keyboard_check(vk_down)))
 	{
-		if (keyboard_check(vk_left))
+		if (keyboard_check(vk_up))
 		{
-			x -= 2;
+			y -= 2;
 			image_xscale = 1;
 			sprite_index = spr_granny_speed;
 		} 
-		if (keyboard_check(vk_right))
+		if (keyboard_check(vk_down))
 		{
-			x += 2;	
+			y += 2;	
 			image_xscale = -1;
 			sprite_index = spr_granny_speed;
 		}
