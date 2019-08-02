@@ -1,38 +1,38 @@
 {
-    "id": "ca1365da-bad9-44ce-a8c6-e1751d964326",
+    "id": "2bcc96fe-9a67-4320-a1f4-f763899e10b0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_road",
+    "name": "obj_grass",
     "eventList": [
         {
-            "id": "128e6af3-54ba-4848-8d16-e17f60a5ca96",
+            "id": "d8d7006d-6cfd-47ec-93ff-8164fe9e79a7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "ca1365da-bad9-44ce-a8c6-e1751d964326"
+            "m_owner": "2bcc96fe-9a67-4320-a1f4-f763899e10b0"
         },
         {
-            "id": "a67b7f5b-f0f2-451a-9284-1a6de97065e8",
+            "id": "75683aeb-05d0-4865-9e9a-621f0e923793",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ca1365da-bad9-44ce-a8c6-e1751d964326"
+            "m_owner": "2bcc96fe-9a67-4320-a1f4-f763899e10b0"
         },
         {
-            "id": "ab422778-4f82-404c-8e1e-51253e3f4372",
+            "id": "067234f2-7420-4114-93f1-ff9260bc213e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 7,
-            "m_owner": "ca1365da-bad9-44ce-a8c6-e1751d964326"
+            "m_owner": "2bcc96fe-9a67-4320-a1f4-f763899e10b0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -52,7 +52,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "fd2cefc4-46e1-45bd-99db-b2f1aef8548c",
+    "solid": false,
+    "spriteId": "38a3acc6-ccd5-4781-920d-30fda1bc1afd",
     "visible": true
 }

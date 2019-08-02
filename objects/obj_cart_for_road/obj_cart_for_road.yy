@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_cart_for_road",
     "eventList": [
-        
+        {
+            "id": "233f5971-61ea-44f8-b547-853bdabf1cce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "94468c28-83a5-4809-af13-a71ebd0bb502"
+        },
+        {
+            "id": "bfa1a5c1-0c25-4318-9d84-ba383c30e574",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "94468c28-83a5-4809-af13-a71ebd0bb502"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

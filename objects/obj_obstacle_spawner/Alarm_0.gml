@@ -9,4 +9,4 @@ if place_free(rndx, rndy)
 	// create only bush if is empty
 	instance_create_depth(rndx, rndy, 2, obj_bush);
 }
-alarm[0] = room_speed * 0.5;
+alarm[0] = room_speed / 2;
