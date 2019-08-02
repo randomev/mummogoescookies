@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2c52f1f0-1daa-4208-851f-635457fe605c",
+            "Value": {
+                "id": "f88e4d37-5c5a-43b2-8a93-6bd7d1b81b9b",
+                "resourcePath": "sprites\\spr_cookie_pickup_small\\spr_cookie_pickup_small.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ce3561e-ddf1-4611-a924-c231ab8a2a28",
             "Value": {
                 "id": "2e901e8a-5c66-492a-8189-aacba194a72b",
