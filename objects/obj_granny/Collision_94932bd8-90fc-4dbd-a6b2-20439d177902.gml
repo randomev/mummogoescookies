@@ -1,6 +1,7 @@
 /// @description Insert description here
 if (keyboard_check(vk_up))
 {
+	// granny goes up
 	sprite_index = spr_granny_chuting;
 	direction = 90;
 	speed = 2;
@@ -10,13 +11,16 @@ if (keyboard_check(vk_up))
 	audio_play_sound(snd_elevator,1,false);
 } 
 else 
-{
-	// coming down from second floor
+{	
+	// granny goes down
 	if (y > global.gb_house_first_floor_height_y)
 	{
 		speed = 0;
 		sprite_index = spr_granny_idle;
 		global.gb_granny_on_elevator = false;
 		y = obj_elevator_lower.y;
+		// granny idling
+		global.gb_granny_bloodpressure_movement = 0;
+
 	}
 }
