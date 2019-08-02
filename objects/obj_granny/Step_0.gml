@@ -28,6 +28,13 @@ if (room == rm_house)
 	{
 		sprite_index = spr_granny_idle;
 	}
+	
+	if (keyboard_check_pressed(vk_space) && global.gb_granny_cookiecount > 0)
+	{
+		acookie = instance_create_layer(x,y,"Instances",obj_cookie_projectile);
+		acookie.direction = direction;
+		acookie.speed = 3;
+	}
 }
 
 if (room == rm_street)
