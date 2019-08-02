@@ -42,8 +42,8 @@ if (room == rm_street)
 		} 
 		if (keyboard_check(vk_down))
 		{
-			y += 2;	
-			image_xscale = -1;
+			y += 2;
+			image_xscale = 1;
 			sprite_index = spr_granny_speed;
 		}
 	} 
