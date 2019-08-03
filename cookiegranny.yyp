@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0d9a64cf-1c63-4434-a927-8709da93b441",
+            "Value": {
+                "id": "cfee91e7-80d4-433e-b03c-d3e16588f712",
+                "resourcePath": "sounds\\snd_store_enter\\snd_store_enter.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0f7360ee-f789-43dd-86e3-ba763af68c12",
             "Value": {
                 "id": "4bccc1cb-3965-499b-9c42-21e91b347fe5",
