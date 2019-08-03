@@ -66,29 +66,10 @@ if (room == rm_street)
 	}
 	
 }
-	if (sprite_index == spr_granny_ded) 
-	
-	{
-		
-		audio_play_sound(snd_gameover, 1, false)
-	
-	}
-// not yet working at all...
 
-//if (place_free(x,y+1))
-//{
-//	gravity=0.2
-//}
-//else
-//{
-//	gravity=0;
-//	if (keyboard_check(vk_space))
-//	{
-//		//vspeed = -3;
-//		gravity=0.2
-//	}
-//}
-//if (not place_free(x,y+1) && keyboard_check(vk_space))
-//{
-//	vspeed=-8
-//}
+if (sprite_index == spr_granny_ded) 
+{
+		
+	audio_play_sound(snd_gameover, 1, false)
+	
+}

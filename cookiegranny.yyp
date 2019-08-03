@@ -1175,6 +1175,14 @@
             }
         },
         {
+            "Key": "e521ef13-90f3-45a1-997e-76a6ec820a64",
+            "Value": {
+                "id": "1988a173-da3c-4938-abe0-dcdd209a9910",
+                "resourcePath": "sprites\\spr_granny_drifting\\spr_granny_drifting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e5efd4ea-2599-48a0-bfe8-e4c96821bc4b",
             "Value": {
                 "id": "0a963885-5efe-4523-b77a-2734e86774e7",
