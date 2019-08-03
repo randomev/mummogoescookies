@@ -4,6 +4,7 @@
 if (keyboard_check_pressed(vk_space))
 {
 	dough_ready_percentage += 10;
+	audio_play_sound(snd_dough, 2, false)
 } else 
 {
 //	global.tip = "Space => prepare dough ...";
