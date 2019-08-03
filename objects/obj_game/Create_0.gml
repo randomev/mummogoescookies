@@ -44,7 +44,7 @@ alarm_set(2, room_speed);
 
 global.gb_cart_image_index = 0;
 
-global.gb_sold_cookies = ini_read_real('saveData', 'sold cookies', 1);
+//global.gb_sold_cookies = ini_read_real("saveData", "sold cookies", 1);
 
 global.gameover = false;
 
