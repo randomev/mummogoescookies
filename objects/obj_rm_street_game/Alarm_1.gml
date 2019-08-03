@@ -14,20 +14,25 @@ if (localtown)
 } 
 else 
 {
-	if (yr < room_height/2)
-	{ 
-		yr += 1;
-	} 
-	else
+	if (abs(room_height/2 - yr)>2)
 	{
-		yr -= 1;
+		if (yr < room_height/2)
+		{ 
+			yr += 1;
+		} 
+		else
+		{
+			yr -= 1;
+		}
+	} else {
+		yr = room_height/2;
 	}
 }
 
 // 8 blocks of road in countryside and full block of bricks in town
 if (intown)
 {
-	for (var yt = 4; yt < yr; yt += 8)
+	for (var yt = 4; yt < yr - 32; yt += 8)
 	{
 		// upper block
 		instance_create_depth(0, yt, 4, obj_tinytile);
@@ -35,7 +40,7 @@ if (intown)
 		//instance_create_depth(0, room_height - yt, 4, obj_tinytile);
 	}
 
-	for (var yt = yr + 64; yt < room_height-4; yt += 8)
+	for (var yt = yr + 32; yt < room_height+4; yt += 8)
 	{
 		// upper block
 		instance_create_depth(0, yt, 4, obj_tinytile);
@@ -43,13 +48,18 @@ if (intown)
 		// lower block
 		//instance_create_depth(0, room_height - yt, 4, obj_tinytile);
 	}
+	
+	a = instance_create_depth(0, yr, 5, obj_pavedroad);
+	a.image_xscale = choose(1,-1);
+	//a.image_yscale = choose(1,-1);
+	
 
 }
 else
 {
 	for (var i = 0; i < 7; i += 1)
 	{
-			instance_create_depth(0, yr + i*8, 4, obj_road);
+			instance_create_depth(0, yr - 32 + i*8, 4, obj_road);
 	}
 }
 
@@ -67,8 +77,8 @@ if (intown)
 } 
 else 
 {
-	instance_create_depth(0, yr, 5, obj_road_edge_top);
-	instance_create_depth(0, yr + 7 * 7, 5, obj_road_edge_btm);
+	instance_create_depth(0, yr - 32 , 5, obj_road_edge_top);
+	instance_create_depth(0, yr + 16, 5, obj_road_edge_btm);
 }
 
 // then bridge once if we are already running at center of screen

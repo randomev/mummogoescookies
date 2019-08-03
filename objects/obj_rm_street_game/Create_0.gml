@@ -13,11 +13,12 @@ yk = 1;
 
 intown = false; // false;
 
-townborder = 1200; // DEBUG 600;
+townborder = 600;
 market = 3200;
 
 lasthouseposition = 999;
 steps = 0;
 
 market_created = false;
+
 

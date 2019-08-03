@@ -27,12 +27,19 @@ var side = choose(1,0);
 
 //if (side == 1)
 //{
-	instance_create_depth(0, yr, 3, obj_house);
+	instance_create_depth(0, yr-32, 3, obj_house);
 //} 
 //else 
 //{
-	a = instance_create_depth(0, yr+64, 3, obj_house);	
+	a = instance_create_depth(0, yr+32, 3, obj_house);	
 	a.y = a.y + a.sprite_height;
+	
+	// car here
+	r = random_range(0,10);
+	if (r > 6)
+	{
+		instance_create_depth(0, yr + random_range(-25,25), 4, obj_car);
+	}
 	//a.image_yscale = -1;
 //}
 

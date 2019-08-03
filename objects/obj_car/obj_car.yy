@@ -1,38 +1,38 @@
 {
-    "id": "da558f1d-6376-4477-8af1-55a83a6cf4f7",
+    "id": "8254a31f-24a5-4776-9bad-6b0749fc3aef",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_house",
+    "name": "obj_car",
     "eventList": [
         {
-            "id": "2fe526d3-3c00-4d49-b280-6f1032b77ac3",
+            "id": "7a94defe-1ab2-44a9-b4f9-c5f773cfbd5d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "15f23dfb-38f7-4fbe-9a8b-41abafd3938d",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "da558f1d-6376-4477-8af1-55a83a6cf4f7"
+            "eventtype": 4,
+            "m_owner": "8254a31f-24a5-4776-9bad-6b0749fc3aef"
         },
         {
-            "id": "e28f8bbb-4684-4b6f-ae90-f5ee5057022a",
+            "id": "7e78885d-8592-4982-a1bc-d6c6ae1871da",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 7,
-            "m_owner": "da558f1d-6376-4477-8af1-55a83a6cf4f7"
+            "m_owner": "8254a31f-24a5-4776-9bad-6b0749fc3aef"
         },
         {
-            "id": "66d9091d-1ac4-4859-b0e7-603a5ea12477",
+            "id": "58f023d5-7c90-4ff7-bcdd-d11971d28e63",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "da558f1d-6376-4477-8af1-55a83a6cf4f7"
+            "m_owner": "8254a31f-24a5-4776-9bad-6b0749fc3aef"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "49558fdb-44af-4563-a3b3-6f45ea10263e",
+    "spriteId": "ab9c0f56-a3ce-40dd-bfde-057e7ca04e90",
     "visible": true
 }

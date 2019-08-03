@@ -3,6 +3,8 @@
 
 if (room == rm_street)
 {
+	image_index = global.gb_cart_image_index;
+
 	if (keyboard_check(vk_up) || (keyboard_check(vk_down)))
 	{
 		if (keyboard_check(vk_up))

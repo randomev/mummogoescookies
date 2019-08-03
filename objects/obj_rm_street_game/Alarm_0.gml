@@ -4,7 +4,7 @@ if (intown)
 	return;
 
 rndx = 1; //random_range(2, 50); //x-91
-rndy = random_range(0, yr);
+rndy = random_range(0, yr-32);
 // upper part
 if place_free(rndx, rndy)
 {
@@ -13,7 +13,7 @@ if place_free(rndx, rndy)
 }
 
 // lower part
-rndy = random_range(yr+64, room_height);
+rndy = random_range(yr+32, room_height);
 if place_free(rndx, rndy)
 {
 	// create only bush if is empty
