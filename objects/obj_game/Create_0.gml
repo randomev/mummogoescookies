@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-window_set_fullscreen(true);
+window_set_fullscreen(false);
 
 // if granny is currently in elevator
 global.gb_granny_on_elevator = false;
@@ -37,8 +37,11 @@ global.gb_granny_cookiecount = 0;
 
 global.tip = "";
 
-global.gb_shop_closes_in_seconds = 2;
+global.gb_shop_closes_in_seconds = 5;
 
-alarm[2] = room_speed * 1;
+alarm_set(2, room_speed * 1);
 
 global.gb_cart_image_index = 0;
+
+global.gameover = false;
+gameovercount = 0;

@@ -4,11 +4,13 @@ if (keyboard_check_pressed(vk_escape))
 {
 	game_end();
 }
-if (global.gb_shop_closes_in_seconds <= 0 && alarm_get(0) == -1)
+
+if (global.gb_shop_closes_in_seconds <= 0)
 {
 		/*obj_granny.sprite_index = spr_granny_ded;
 		alarm_set(0, room_speed * 2);
 		*/
+		global.gameover = true;
 }   
 if (global.gb_granny_on_elevator)
 {
@@ -19,8 +21,9 @@ if (global.gb_granny_blood_overpressure > 3)
 {
 	global.gb_granny_blood_overpressure = 100;
 	global.gb_granny_bloodpressure_movement = 0;
-	obj_granny.sprite_index = spr_granny_ded;
-	alarm_set(0, room_speed  * 1);
+	//obj_granny.sprite_index = spr_granny_ded;
+	//alarm_set(0, room_speed  * 1);
+	
 }
 
 if (global.gb_granny_blood_overpressure < 0)

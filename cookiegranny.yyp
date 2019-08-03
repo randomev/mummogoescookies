@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "008a80c6-4b7a-4b87-afbf-9aeb31905040",
+            "Value": {
+                "id": "0cdb874f-caff-477c-8cb9-e6b17e07c4e5",
+                "resourcePath": "sprites\\spr_border_gauge\\spr_border_gauge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0144312f-1cda-43ee-bb8a-38f27f81b5a1",
             "Value": {
                 "id": "a790f9e0-8c96-4711-8bfd-76b1a65cd5ff",
@@ -44,6 +52,14 @@
                 "id": "93cbcc29-c734-4d84-a291-2f690db14f38",
                 "resourcePath": "sounds\\snd_elevator\\snd_elevator.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "041737ae-1ae1-434f-8b73-ff65fc8a85dd",
+            "Value": {
+                "id": "7f530d27-8fba-4daa-b6fa-fc3e5b04a9e7",
+                "resourcePath": "sprites\\spr_border_bloodpressure\\spr_border_bloodpressure.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "2b77a765-e95d-4ba9-95db-25672ab8a1ac",
+            "Value": {
+                "id": "2a646b5c-cb9a-4e88-9df3-c13074ed98c3",
+                "resourcePath": "sprites\\spr_border_irritation\\spr_border_irritation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bcc96fe-9a67-4320-a1f4-f763899e10b0",
             "Value": {
                 "id": "fc64f0dd-c1b6-4a4e-a87e-6bcc894c956f",
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "453258e7-0c8d-41c6-857f-a08c2007ddba",
+            "Value": {
+                "id": "cb951dd0-f4e2-4496-9b21-9625519ca6a1",
+                "resourcePath": "sprites\\spr_house4\\spr_house4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45551eb1-fb55-4f90-ba7c-ac183633b618",
             "Value": {
                 "id": "e2fe9147-4906-4643-8707-81799bd996c9",
@@ -340,6 +372,14 @@
                 "id": "c163510a-c5e2-4c39-aa34-cf51293d97e0",
                 "resourcePath": "objects\\obj_game\\obj_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49558fdb-44af-4563-a3b3-6f45ea10263e",
+            "Value": {
+                "id": "45242c40-3a42-44b9-b0f6-3133f6889bcb",
+                "resourcePath": "sprites\\spr_house2\\spr_house2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -436,6 +476,14 @@
                 "id": "10124d78-d7e6-44db-9aca-017878e2d8e9",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "64b195e2-facd-49f5-91ff-4df5c8d1f676",
+            "Value": {
+                "id": "92e619e1-0179-4429-b5f8-ddacbf9b436c",
+                "resourcePath": "sprites\\spr_house3\\spr_house3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -596,6 +644,14 @@
                 "id": "2c013472-020a-473d-b064-86ca571b7582",
                 "resourcePath": "views\\8ae5b814-38d5-4211-ad62-288c7fc6656b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8ce5bf89-d2a3-4930-ae6e-1245702eba7e",
+            "Value": {
+                "id": "6d084ace-a2ee-49ec-b263-4ab4e1c70edd",
+                "resourcePath": "sprites\\spr_fence\\spr_fence.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -836,6 +892,14 @@
                 "id": "b1565a8d-2dbb-40c2-969e-1363cdcd2b88",
                 "resourcePath": "objects\\obj_cookie\\obj_cookie.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7776128-1bfe-4f4a-bd88-10ec599e184f",
+            "Value": {
+                "id": "6ee0257b-1cee-42e5-b387-8f980f24fabf",
+                "resourcePath": "sprites\\spr_border_clock\\spr_border_clock.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

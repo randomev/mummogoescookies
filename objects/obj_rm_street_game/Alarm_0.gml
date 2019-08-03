@@ -1,5 +1,8 @@
 /// @description Bush generation happens here
-		
+	
+if (intown)
+	return;
+
 rndx = 1; //random_range(2, 50); //x-91
 rndy = random_range(6, 221);
 if place_free(rndx, rndy)
