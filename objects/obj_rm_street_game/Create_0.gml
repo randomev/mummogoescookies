@@ -11,10 +11,10 @@ alarm[2] = room_speed * 1;
 yr = random_range(0.4 * room_height, 0.6 * room_height)
 yk = 1;
 
-intown = true; // false;
+intown = false; // false;
 
-townborder = 10; // DEBUG 600;
-market = 1200;
+townborder = 1200; // DEBUG 600;
+market = 3200;
 
 lasthouseposition = 999;
 steps = 0;
