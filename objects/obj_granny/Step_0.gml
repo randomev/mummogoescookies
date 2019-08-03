@@ -60,6 +60,10 @@ if (room == rm_street)
 			image_xscale = 1;
 		}
 	} 
+	else if (keyboard_check(vk_space))
+	{
+		sprite_index = spr_granny_drifting;
+	}
 	else 
 	{
 		sprite_index = spr_granny_speed;
