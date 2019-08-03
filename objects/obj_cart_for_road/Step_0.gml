@@ -19,11 +19,22 @@ if (room == rm_street)
 		}
 	}
 	
-	s += 1;
-	if ((s mod 50) == 0)
+	if (keyboard_check(vk_space))
 	{
-		image_angle = image_angle + a;
-		a = a * -1;		
+		image_angle = -10;
+		instance_create_depth(x,y, 4, obj_driftmark);
+		part_particles_create(global.P_System, x, y, global.Particle3, 50);
+		global.gb_granny_blood_overpressure += 0.1;
+	}
+	else
+	{
+		image_angle = 0;
+		s += 1;
+		if ((s mod 50) == 0)
+		{
+			image_angle = image_angle + a;
+			a = a * -1;		
+		}
 	}
 	
 	if (keyboard_check(vk_left))

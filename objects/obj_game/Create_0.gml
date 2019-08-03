@@ -73,4 +73,18 @@ part_type_speed(global.Particle2,0.70,2,-0.10,0);            //The particles spe
 part_type_direction(global.Particle2,0,359,0,20);            //The direction
 part_type_orientation(global.Particle2,0,0,0,0,1);           //This changes the rotation of the particle
 part_type_blend(global.Particle2,1);                         //This is the blend mode, either additive or normal
-part_type_life(global.Particle2,1,15);    
+part_type_life(global.Particle2,1,15);
+
+
+global.Particle3 = part_type_create();
+
+part_type_shape(global.Particle3,pt_shape_pixel);            //This defines the particles shape
+part_type_size(global.Particle3,1,1,0,2);                    //This is for the size
+part_type_scale(global.Particle3,1,1);                       //This is for scaling
+part_type_color1(global.Particle3,c_gray);                  //This sets its colour. There are three different codes for this
+part_type_alpha1(global.Particle3,1);                        //This is its alpha. There are three different codes for this
+part_type_speed(global.Particle3,0.70,2,-0.10,0);            //The particles speed
+part_type_direction(global.Particle3,0,359,0,20);            //The direction
+part_type_orientation(global.Particle3,0,0,0,0,1);           //This changes the rotation of the particle
+part_type_blend(global.Particle3,1);                         //This is the blend mode, either additive or normal
+part_type_life(global.Particle3,1,15);
