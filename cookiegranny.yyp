@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "67f118e6-5f96-48da-aae4-3089ec0fcc45",
+            "Value": {
+                "id": "5593bbb1-1d14-4d16-b705-e0165d3459ee",
+                "resourcePath": "objects\\obj_granny_ded\\obj_granny_ded.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6914547d-b7bb-4ad3-bdc3-3e877828120b",
             "Value": {
                 "id": "dd7a97ec-226a-45a1-b1da-3927bddee9a0",

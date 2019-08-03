@@ -39,7 +39,8 @@ global.tip = "";
 
 global.gb_shop_closes_in_seconds = 120;
 
-alarm_set(2, room_speed * 1);
+alarm_set(0, room_speed);
+alarm_set(2, room_speed);
 
 global.gb_cart_image_index = 0;
 

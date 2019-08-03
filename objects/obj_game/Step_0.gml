@@ -17,13 +17,13 @@ if (global.gb_granny_on_elevator)
 	global.gb_granny_blood_overpressure += global.gb_granny_bloodpressure_movement + 0.1;
 }
 
-if (global.gb_granny_blood_overpressure > 100)
+if (global.gb_granny_blood_overpressure >= 100)
 {
 	global.gb_granny_blood_overpressure = 100;
 	global.gb_granny_bloodpressure_movement = 0;
 	//obj_granny.sprite_index = spr_granny_ded;
 	//alarm_set(0, room_speed  * 1);
-	
+	global.gameover = true;
 }
 
 if (global.gb_granny_blood_overpressure < 0)
@@ -38,11 +38,11 @@ if (global.gb_grandchild_irritation_level < 0)
 	global.gb_grandchild_irritation_level_movement = 0;
 }
 
-if (global.gb_grandchild_irritation_level > 30)
+if (global.gb_grandchild_irritation_level >= 30)
 {
-	
-	obj_granny.sprite_index = spr_granny_ded;
-	alarm_set(0, room_speed * 1);
+	global.gameover = true;
+	//obj_granny.sprite_index = spr_granny_ded;
+	//alarm_set(0, room_speed * 1);
 
 	global.gb_grandchild_irritation_level = 30;
 	global.gb_grandchild_irritation_level_movement = 0;

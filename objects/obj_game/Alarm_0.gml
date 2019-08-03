@@ -3,5 +3,8 @@
 
 //alarm_set(2, -1);
 
-//alarm_set(0, -1);
-room_goto(rm_gameover);
+alarm_set(0, room_speed);
+if (global.gameover == true)
+{
+	room_goto(rm_gameover);
+}

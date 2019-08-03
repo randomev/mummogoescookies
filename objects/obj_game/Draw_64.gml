@@ -5,7 +5,7 @@ if(room == rm_house || room == rm_street)
 {
 	// draw_set_font(fnt_font0);	
 	
-	//draw_text(10,25,"Grandchild irritation: " + string(global.gb_grandchild_irritation_level));
+	draw_text(10,25,"Grandchild irritation: " + string(global.gb_grandchild_irritation_level));
 	////draw_healthbar(148, 28, 188, 21, global.gb_granny_blood_overpressure, c_black, c_red, c_lime, 0, true, true)
 
 	draw_text(10,10,"Granny blood (over)pressure: " + string(global.gb_granny_blood_overpressure));
