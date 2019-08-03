@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+audio_play_sound(snd_cookie_hits_cart, 1, false);
 instance_destroy();
 global.gb_grandchild_irritation_level -= 1;
 

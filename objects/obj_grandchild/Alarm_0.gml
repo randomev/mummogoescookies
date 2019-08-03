@@ -8,11 +8,13 @@ if (global.gb_grandchild_irritation_level >= 10 && global.gb_grandchild_irritati
 {
 	sprite_index = spr_grandchild_irritaded;
 	speed = 0;
+	audio_play_sound(snd_grandchild2, 2, false);
 	audio_pause_sound(snd_house);
 	audio_play_sound(snd_house_house, 1, true);
 } 
 else if (global.gb_grandchild_irritation_level >= 15 && sprite_index != spr_grandchild_jumping)
 {
+	audio_play_sound(snd_grandchild1, 2, false);
 	sprite_index = spr_grandchild_idle_run;
 	//direction = 180;
 	speed = 0.8;

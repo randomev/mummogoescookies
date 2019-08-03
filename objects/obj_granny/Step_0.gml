@@ -39,7 +39,7 @@ if (room == rm_house)
 		// if looking to left
 		if (image_xscale = 1)
 			acookie.direction = 180;
-
+		audio_play_sound(snd_cookie_throw, 2, false);
 		acookie.speed = 3;
 		global.gb_granny_cookiecount -= 1;
 	}
