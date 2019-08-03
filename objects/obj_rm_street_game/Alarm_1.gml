@@ -66,10 +66,14 @@ else
 }
 
 if (yr > room_height * 0.7)
+{
 	yk = -1;
+}
 
 if (yr < room_height * 0.3)
+{	
 	yk = 1;
+}
 
 if (travelspeed == 2)
 {

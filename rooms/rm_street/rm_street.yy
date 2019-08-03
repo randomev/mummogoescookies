@@ -102,9 +102,9 @@
         "Height": 240,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
-        "persistent": true,
+        "persistent": false,
         "mvc": "1.0",
-        "Width": 384
+        "Width": 320
     },
     "mvc": "1.0",
     "views": [
