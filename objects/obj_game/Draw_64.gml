@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(room == rm_house)
+if(room == rm_house || room == rm_street)
 {
 	draw_set_font(fnt_font0);	
 	
@@ -13,9 +13,20 @@ if(room == rm_house)
 
 	//draw_text(10,35,"Cookies: " + string(global.gb_granny_cookiecount));
 
+	obj_border_clock.sprite_index = global.gb_shop_closes_in_seconds / 10 - 1;
+	
+	if (global.gb_grandchild_irritation_level < 5)
+	{
+		obj_border_irritation.visible = false;
+	}
+	else
+	{
+		obj_border_irritation.visible = true;
+		obj_border_irritation.image_speed = global.gb_grandchild_irritation_level / 10;
+	}
 }
 
-
+/*
 {
 	draw_set_font(fnt_font0);	
 	
@@ -28,4 +39,4 @@ if(room == rm_house)
 
 
 }
-
+*/

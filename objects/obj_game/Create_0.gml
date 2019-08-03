@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-window_set_fullscreen(false);
+window_set_fullscreen(true);
 
 // if granny is currently in elevator
 global.gb_granny_on_elevator = false;
@@ -45,3 +45,10 @@ global.gb_cart_image_index = 0;
 
 global.gameover = false;
 gameovercount = 0;
+
+
+
+
+
+
+
