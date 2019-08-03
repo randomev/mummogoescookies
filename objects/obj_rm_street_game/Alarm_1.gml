@@ -2,7 +2,13 @@
 // road here
 
 
-if (intown == false)
+//if (traveled > townborder)
+//{
+//	intown = true;
+//}
+localtown = traveled > townborder;
+
+if (localtown)
 {
 		yr = yr + random_range(-1, 4) * yk;
 } 
@@ -63,6 +69,14 @@ else
 {
 	instance_create_depth(0, yr, 5, obj_road_edge_top);
 	instance_create_depth(0, yr + 7 * 7, 5, obj_road_edge_btm);
+}
+
+// then bridge once if we are already running at center of screen
+if (townborder < 9999 && abs(room_height/2 - yr)<3)
+{
+	intown = true;
+	instance_create_depth(0, yr, 1, obj_bridge);
+	townborder = 9999; // reset so that not again bridge
 }
 
 if (yr > room_height * 0.7)

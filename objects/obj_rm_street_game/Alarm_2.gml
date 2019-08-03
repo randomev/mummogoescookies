@@ -32,7 +32,8 @@ var side = choose(1,0);
 //else 
 //{
 	a = instance_create_depth(0, yr+64, 3, obj_house);	
-	a.image_yscale = -1;
+	a.y = a.y + a.sprite_height;
+	//a.image_yscale = -1;
 //}
 
 lasthouseposition = steps;
