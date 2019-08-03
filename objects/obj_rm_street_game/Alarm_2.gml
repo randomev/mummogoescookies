@@ -6,7 +6,7 @@
 //} 
 //else 
 //{
-	alarm_set(2, room_speed*1);	
+	alarm_set(2, room_speed*0.5);	
 //}
 
 if (intown == false)
@@ -14,7 +14,7 @@ if (intown == false)
 	return;
 }
 
-if (lasthouseposition < steps - 60)
+if (lasthouseposition < steps - 50)
 	return;
 	
 if (traveled > market - 200)
@@ -25,13 +25,14 @@ if (traveled > market - 200)
 
 var side = choose(1,0);
 
-if (side == 0)
-{
-	instance_create_depth(0, yr-16, 3, obj_house);
-} 
-else 
-{
-	instance_create_depth(0, yr+64+16, 3, obj_house);	
-}
+//if (side == 1)
+//{
+	instance_create_depth(0, yr, 3, obj_house);
+//} 
+//else 
+//{
+	a = instance_create_depth(0, yr+64, 3, obj_house);	
+	a.image_yscale = -1;
+//}
 
 lasthouseposition = steps;
