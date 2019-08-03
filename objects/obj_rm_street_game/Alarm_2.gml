@@ -1,4 +1,4 @@
-/// @description House generation happens here
+/// @description House and car generation happens here
 
 //if (travelspeed == 2)
 //{
@@ -38,7 +38,7 @@ var side = choose(1,0);
 	r = random_range(0,10);
 	if (r > 6)
 	{
-		instance_create_depth(0, yr + random_range(-25,25), 4, obj_car);
+		instance_create_depth(0, yr + choose(10,-15), 4, obj_car);
 	}
 	//a.image_yscale = -1;
 //}

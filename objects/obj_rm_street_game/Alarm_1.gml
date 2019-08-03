@@ -57,10 +57,12 @@ if (intown)
 }
 else
 {
+	/*
 	for (var i = 0; i < 7; i += 1)
 	{
 			instance_create_depth(0, yr - 32 + i*8, 4, obj_road);
 	}
+	*/
 }
 
 // then above and below road some things
@@ -77,8 +79,8 @@ if (intown)
 } 
 else 
 {
-	instance_create_depth(0, yr - 32 , 5, obj_road_edge_top);
-	instance_create_depth(0, yr + 16, 5, obj_road_edge_btm);
+	//instance_create_depth(0, yr - 32 , 5, obj_road_edge_top);
+	//instance_create_depth(0, yr + 16, 5, obj_road_edge_btm);
 }
 
 // then bridge once if we are already running at center of screen

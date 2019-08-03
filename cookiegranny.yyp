@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "4519f3ad-1305-4340-9c88-a26dcd77dc3d",
+            "Value": {
+                "id": "0a17d934-ae10-4e85-b443-eb4edd3907c7",
+                "resourcePath": "sprites\\spr_car_crash\\spr_car_crash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "451ff93e-b7cc-4675-ae3c-b2f1e8b58e53",
             "Value": {
                 "id": "9fc55c50-9ec3-4e4d-bbc9-30c1970e422f",
