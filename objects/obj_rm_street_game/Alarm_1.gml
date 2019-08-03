@@ -6,9 +6,14 @@
 //{
 //	intown = true;
 //}
-localtown = traveled > townborder;
+localtown = false;	
 
-if (localtown)
+if (traveled > townborder)
+{
+	localtown = true;
+}
+
+if (localtown == false)
 {
 		yr = yr + random_range(-1, 4) * yk;
 } 
@@ -84,11 +89,11 @@ else
 }
 
 // then bridge once if we are already running at center of screen
-if (townborder < 9999 && abs(room_height/2 - yr)<3 && localtown)
+if (bridge_created == false && abs(room_height/2 - yr)<3 && localtown)
 {
 	intown = true;
 	instance_create_depth(0, yr, 1, obj_bridge);
-	townborder = 9999; // reset so that not again bridge
+	bridge_created = true;
 }
 
 if (yr > room_height * 0.7)

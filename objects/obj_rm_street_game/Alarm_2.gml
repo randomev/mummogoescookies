@@ -34,11 +34,14 @@ var side = choose(1,0);
 	a = instance_create_depth(0, yr+32, 3, obj_house);	
 	a.y = a.y + a.sprite_height;
 	
-	// car here
-	r = random_range(0,10);
-	if (r > 6)
+	if (traveled > townborder + 10)
 	{
-		instance_create_depth(0, yr + choose(10,-15), 4, obj_car);
+		// car here
+		r = random_range(0,10);
+		if (r > 6)
+		{
+			instance_create_depth(0, yr + choose(10,-15), 4, obj_car);
+		}
 	}
 	//a.image_yscale = -1;
 //}
