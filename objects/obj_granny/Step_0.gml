@@ -60,7 +60,7 @@ if (room == rm_street)
 			image_xscale = 1;
 		}
 	} 
-	else if (keyboard_check(vk_space))
+	else if (keyboard_check(vk_space) || keyboard_check(vk_left))
 	{
 		sprite_index = spr_granny_drifting;
 		//instance_create_depth(x,y, 4, obj_driftmark);

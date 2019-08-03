@@ -23,7 +23,7 @@ if (traveled > market - 200)
 	alarm_set(2, -1);
 }
 
-var side = choose(1,0);
+//var side = choose(1,0);
 
 //if (side == 1)
 //{
@@ -34,7 +34,7 @@ var side = choose(1,0);
 	a = instance_create_depth(0, yr+32, 3, obj_house);	
 	a.y = a.y + a.sprite_height;
 	
-	if (traveled > townborder + 10)
+	if (traveled > townborder + 100)
 	{
 		// car here
 		r = random_range(0,10);

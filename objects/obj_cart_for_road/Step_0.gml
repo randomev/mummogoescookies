@@ -19,7 +19,7 @@ if (room == rm_street)
 		}
 	}
 	
-	if (keyboard_check(vk_space))
+	if (keyboard_check(vk_space) || keyboard_check(vk_left))
 	{
 		image_angle = -10;
 		instance_create_depth(x,y, 4, obj_driftmark);
