@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "ab9c0f56-a3ce-40dd-bfde-057e7ca04e90",
+            "Value": {
+                "id": "0f578890-8bef-496e-9e8e-d35763e7fb3e",
+                "resourcePath": "sprites\\spr_car\\spr_car.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad6c0122-db3e-4ee9-869c-deaaf72a961b",
             "Value": {
                 "id": "fa6bfe26-7b21-46d0-8728-e11b541b9754",
