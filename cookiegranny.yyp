@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "12ef17f7-2979-4558-8010-957624e54fb0",
+            "Value": {
+                "id": "091d0b75-3753-45bb-9411-01fb5eafcfa0",
+                "resourcePath": "sprites\\spr_gameoverlogo\\spr_gameoverlogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15916b5f-a477-4d93-8743-c97a6f9dd2a2",
             "Value": {
                 "id": "9cf6183f-f8ae-4fc9-9782-4b69315ac6bb",
@@ -831,6 +839,14 @@
             }
         },
         {
+            "Key": "9737563e-171e-4beb-88e7-7d2e47268666",
+            "Value": {
+                "id": "06574a34-912c-48f3-8d2c-c0b53ef07e48",
+                "resourcePath": "objects\\obj_gameoverlogo\\obj_gameoverlogo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b034c04-70b5-4719-b5fb-0f98eee52b5b",
             "Value": {
                 "id": "820ebed6-48f6-405f-82a2-daa6db010d51",
@@ -852,6 +868,14 @@
                 "id": "e61d9ad7-58e0-4c23-b3f4-963e76896787",
                 "resourcePath": "views\\9d9d7022-7c23-4e3c-a11a-dbe7e2f79f22.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f43714f-50ac-4fb2-88c9-1d44efb0f374",
+            "Value": {
+                "id": "2a0be3f3-eb5d-4702-9392-6fe9710a95b7",
+                "resourcePath": "objects\\obj_gameoverroom\\obj_gameoverroom.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -5,6 +5,11 @@ if (keyboard_check_pressed(vk_escape))
 	game_end();
 }
 
+if (room == rm_gameover)
+{
+	return;
+}
+
 if (global.gb_shop_closes_in_seconds <= 0)
 {
 		/*obj_granny.sprite_index = spr_granny_ded;
