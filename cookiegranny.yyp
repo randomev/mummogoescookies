@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "90a90641-ebcb-4b57-a294-30827728a3ec",
+            "Value": {
+                "id": "05dc3a05-d8dd-44bc-8da4-3e55d45d7d93",
+                "resourcePath": "sprites\\spr_cart_drifting\\spr_cart_drifting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93ed6352-ce7f-4d70-b6c6-b681aa1fa5f4",
             "Value": {
                 "id": "c5164e60-e360-40ad-91fd-dbbecfe304c8",
