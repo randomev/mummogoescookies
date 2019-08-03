@@ -13,17 +13,19 @@ if(room == rm_house || room == rm_street)
 
 	//draw_text(10,35,"Cookies: " + string(global.gb_granny_cookiecount));
 
-	obj_border_clock.sprite_index = global.gb_shop_closes_in_seconds / 10 - 1;
+	obj_border_clock.image_index = 12 - global.gb_shop_closes_in_seconds / 10 + 1;
 	
 	if (global.gb_grandchild_irritation_level < 5)
 	{
-		obj_border_irritation.visible = false;
+		obj_border_irritation.image_alpha = 0;
 	}
 	else
 	{
-		obj_border_irritation.visible = true;
+		obj_border_irritation.image_alpha = 1;
 		obj_border_irritation.image_speed = global.gb_grandchild_irritation_level / 10;
 	}
+	
+	obj_border_bloodpressure.image_speed = global.gb_granny_bloodpressure_movement / 10;
 }
 
 /*

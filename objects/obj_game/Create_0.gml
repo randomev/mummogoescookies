@@ -37,7 +37,7 @@ global.gb_granny_cookiecount = 0;
 
 global.tip = "";
 
-global.gb_shop_closes_in_seconds = 5;
+global.gb_shop_closes_in_seconds = 120;
 
 alarm_set(2, room_speed * 1);
 

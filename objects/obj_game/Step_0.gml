@@ -14,7 +14,7 @@ if (global.gb_shop_closes_in_seconds <= 0)
 }   
 if (global.gb_granny_on_elevator)
 {
-	global.gb_granny_bloodpressure_movement = +0.1;
+	global.gb_granny_blood_overpressure += global.gb_granny_bloodpressure_movement + 0.1;
 }
 
 if (global.gb_granny_blood_overpressure > 3)
