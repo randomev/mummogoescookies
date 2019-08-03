@@ -66,7 +66,13 @@ if (room == rm_street)
 	}
 	
 }
-
+	if (sprite_index == spr_granny_ded) 
+	
+	{
+		
+		audio_play_sound(snd_gameover, 1, false)
+	
+	}
 // not yet working at all...
 
 //if (place_free(x,y+1))
