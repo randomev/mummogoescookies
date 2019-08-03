@@ -18,3 +18,6 @@ market = 3200;
 
 lasthouseposition = 999;
 steps = 0;
+
+market_created = false;
+

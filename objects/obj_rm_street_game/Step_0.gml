@@ -11,8 +11,8 @@ steps += 1;
 
 traveled += travelspeed;
 
-if traveled >= market
+if (traveled >= market && market_created == false)
 {
 	instance_create_depth(0, yr + 32, 1, obj_market);
-	
+	market_created = true;
 }

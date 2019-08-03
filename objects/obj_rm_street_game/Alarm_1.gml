@@ -72,7 +72,7 @@ else
 }
 
 // then bridge once if we are already running at center of screen
-if (townborder < 9999 && abs(room_height/2 - yr)<3)
+if (townborder < 9999 && abs(room_height/2 - yr)<3 && localtown)
 {
 	intown = true;
 	instance_create_depth(0, yr, 1, obj_bridge);
