@@ -1,8 +1,7 @@
 /// @description Game over after while ...
 // You can write your code in this editor
 
-alarm_set(2, -1);
+//alarm_set(2, -1);
+
 //alarm_set(0, -1);
-gameovercount += 1;
-if (gameovercount > 10)
-	room_goto(rm_gameover);
+room_goto(rm_gameover);
