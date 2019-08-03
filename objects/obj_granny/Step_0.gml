@@ -63,6 +63,9 @@ if (room == rm_street)
 	else if (keyboard_check(vk_space))
 	{
 		sprite_index = spr_granny_drifting;
+		//instance_create_depth(x,y, 4, obj_driftmark);
+		//part_particles_create(global.P_System, x, y, global.ParticleDrift, 5);
+
 	}
 	else 
 	{
