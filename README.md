@@ -29,16 +29,17 @@ You as a grandmother must keep your grandchild entertained by baking cookies, wh
 
 Bake dough by pressing space couple of times while near dough table. Then move over to oven which automatically bakes a cookie. Pick up the cookie and  feed it to either grandchild or store it downstais to wheelbarrow. When done, take wheelbarrow (spacebar nearby) and exit from left of the building - remember 'Elvis has left the building".... Drive until at market. Buy some more stuff to keep grandchild entertained and your bloodpressure in control (sorry, buying not yet implemented ...)
 
-Assembly 2019 Game Jam Entry
+# Assembly 2019 Game Jam Entry
+
 #asmjam
 
-Credits:
+# Credits:
 
-Kyyrypyy Graphics, animations
+Kyyrypyy: Graphics, animations
 
-Mysia Graphics
+Mysia: Graphics
 
-Vaingald Music, code, effects
+Vaingald: Music, code, effects
 
-Zoppa Code
+Zoppa: Code
 
