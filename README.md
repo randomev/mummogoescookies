@@ -17,7 +17,7 @@ You as a grandmother must keep your grandchild entertained by baking cookies, wh
 
 - drifts while with wheelbarrow
 
-#Other things to know#
+# Other things to know
 
 *Clock* - store is open only till midnight ...
 
@@ -35,7 +35,10 @@ Assembly 2019 Game Jam Entry
 Credits:
 
 Kyyrypyy Graphics, animations
+
 Mysia Graphics
+
 Vaingald Music, code, effects
+
 Zoppa Code
 
