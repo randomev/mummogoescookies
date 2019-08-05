@@ -1,6 +1,9 @@
 
 # Granny Goes Cookies
 
+# Itch.io page (pre-compiled downloads available):
+https://zoppa.itch.io/granny-goes-cookies
+
 ## Objective
 
 You as a grandmother must keep your grandchild entertained by baking cookies, while simultaneously watching your blood pressure.  On the other hand, new TV for grandkid could be nice and more heart-medicine for you - thus you need to make enough cookies to sell them at the nearby store. Store is behind some forest, in the town where you should keep close control of your wheelbarrow full of cookies. Do not drift too much with it, as it raises your blood-pressure... Keep in mind that store is only open till midnight - so you need to reach store before that....
